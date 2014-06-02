@@ -8,7 +8,7 @@ accounts-facebook
 accounts-github
 accounts-google
 accounts-linkedin
-accounts-meld
+accounts-meld-client-bootstrap
 accounts-password
 accounts-ui-bootstrap-3
 bootstrap-3

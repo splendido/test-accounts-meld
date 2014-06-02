@@ -3,8 +3,6 @@
         "accounts-ui-bootstrap-3": {},
         "bootstrap-3": {},
         "accounts-linkedin": {},
-        "accounts-meld": {
-            "git": "https://github.com/splendido/meteor-accounts-meld.git"
-        }
+        "accounts-meld-client-bootstrap": {}
     }
 }
