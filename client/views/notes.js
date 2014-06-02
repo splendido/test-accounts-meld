@@ -5,13 +5,16 @@ Template.notes.helpers({
 });
 
 Template.notes.events({
-	'click #newNote': function(e, t){
-		e.preventDefault();
+	'click #newNote': function(event, t){
+        event.preventDefault();
+        event.stopPropagation();
+        $("#newNote").blur();
 		var $noteText = t.find('#noteText');
 		var text = $noteText.value;
 		if (!text)
 			return;
 		Meteor.call('insertNewNote', text);
 		$noteText.value = "";
+		$noteText.focus();
 	}
 });

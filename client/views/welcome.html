@@ -1,0 +1,8 @@
+<template name="welcome">
+  <div class="jumbotron text-center">
+    <h1>Lets play around!</h1>
+    {{#if currentUser}}
+    	You may wish to <button class="btn btn-default" id="delAccount">delete this account</button> to play even more...
+    {{/if}}
+  </div>
+</template>
