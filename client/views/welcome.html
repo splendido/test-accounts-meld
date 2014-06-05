@@ -2,7 +2,12 @@
   <div class="jumbotron text-center">
     <h1>Lets play around!</h1>
     {{#if currentUser}}
-    	You may wish to <button class="btn btn-default" id="delAccount">delete this account</button> to play even more...
+    	<div>
+    		You can call <code>Meteor.loginWithGoogle()</code> or similar to add another login service to the current account.
+    	</div>
+    	<div>
+    		You may also wish to <button class="btn btn-default" id="delAccount">delete this account</button> to play even more...
+    	</div>
     {{/if}}
   </div>
 </template>
