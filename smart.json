@@ -1,9 +1,9 @@
 {
-    "packages": {
-        "accounts-ui-bootstrap-3": {},
-        "bootstrap-3": {},
-        "accounts-linkedin": {},
-        "accounts-meld": {},
-        "accounts-meld-client-bootstrap": {}
-    }
+  "packages": {
+    "bootstrap-3": {},
+    "accounts-linkedin": {},
+    "accounts-meld-client-bootstrap": {},
+    "accounts-templates-bootstrap": {},
+    "accounts-meld": {}
+  }
 }

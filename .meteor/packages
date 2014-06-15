@@ -5,14 +5,12 @@
 
 accounts-base
 accounts-facebook
-accounts-github
 accounts-google
 accounts-linkedin
-accounts-meld
 accounts-meld-client-bootstrap
 accounts-password
-accounts-ui-bootstrap-3
 bootstrap-3
 standard-app-packages
 service-configuration
-accounts-twitter
+accounts-templates-bootstrap
+accounts-meld
