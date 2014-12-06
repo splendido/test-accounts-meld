@@ -2,13 +2,14 @@
   "packages": {
     "bootstrap-3": {},
     "accounts-linkedin": {},
+    "accounts-templates-bootstrap": {
+        "path": "/home/idel/Projects/AccountsTemplates/accounts-templates-bootstrap"
+    },
     "accounts-meld": {
-    	"_path": "/home/idel/Projects/AccountsTemplates/accounts-meld"
+        "path": "/home/idel/Projects/AccountsTemplates/accounts-meld"
     },
     "accounts-meld-client-bootstrap": {
-    	"_path": "/home/idel/Projects/AccountsTemplates/accounts-meld-client-bootstrap"
-    },
-    "accounts-templates-bootstrap": {},
-    "accounts-meld": {}
+        "path": "/home/idel/Projects/AccountsTemplates/accounts-meld-client-bootstrap"
+    }
   }
 }
